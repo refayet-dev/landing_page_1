@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achieve Your Dream Figure | Profitable Media</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section id="home-screen" class="screen active">
+      <div class="home-screen-container">
+        <div class="content-wrapper">
+          <div class="text-content">
+            <h1>Achieve Your Dream Figure with Quick and Effective Workouts.</h1>
+            <p class="subtitle">Take this 30-second quiz to find out how</p>
+            <div class="gender-selection">
+              <button class="gender-btn" data-gender="women">
+                <span class="gender-icon"></span>
+                <span class="gender-text">Women Start Here</span>
+              </button>
+              <button class="gender-btn" data-gender="men">
+                <span class="gender-icon"></span>
+                <span class="gender-text">Men Start Here</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="brands">
+        <div class="first-row row">
+          <img src="./Assets/Image/women-health.webp" alt="Women's Health" class="brand-logo">
+          <img src="./Assets/Image/Forbes.webp" alt="Forbes" class="brand-logo">
+        </div>
+        <div class="second-row row">
+          <img src="./Assets/Image/Mayo_clinic.webp" alt="Mayo Clinic" class="brand-logo">
+          <img src="./Assets/Image/wallStreet.webp" alt="Wall Street Journal" class="brand-logo">
+          <img src="./Assets/Image/vogue.webp" alt="Vogue" class="brand-logo">
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz-container" class="screen">
+      <div class="quiz-card">
+        <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+
+        <div class="progress-container">
+          <div class="progress-bar" id="quiz-progress"></div>
+        </div>
+
+        <div id="quiz-questions" class="quiz-questions">
+        </div>
+
+        <div class="quiz-navigation">
+          <button id="prev-btn" class="nav-btn" disabled>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_2045_120" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32"
+                height="32">
+                <rect width="32" height="32" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_2045_120)">
+                <path
+                  d="M21.5814 28.8718L8.70935 16.0001L21.5814 3.12842L23.2257 4.79508L12.0204 16.0001L23.2257 27.2051L21.5814 28.8718Z"
+                  fill="#575757" />
+              </g>
+            </svg>
+
+          </button>
+          <div class="question-counter">1/5</div>
+          <button id="next-btn" class="nav-btn">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_2045_124" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32"
+                height="32">
+                <rect width="32" height="32" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_2045_124)">
+                <path
+                  d="M10.412 28.836L8.75899 27.1776L19.9727 15.964L8.75899 4.75895L10.412 3.09229L23.2837 15.964L10.412 28.836Z"
+                  fill="#575757" />
+              </g>
+            </svg>
+
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="loading-screen" class="screen">
+      <div class="container">
+        <div class="content-wrapper">
+          <div class="text-content">
+            <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+            <p class="loading-text">Please wait while we match you with the best routine for maximum fat loss...</p>
+            <div class="Loading_progress_container">
+              <div id="progressWrapper">
+                <svg width="247" height="247" viewBox="0 0 247 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M123.239 7.56349C59.0655 7.56349 7.04225 59.5867 7.04225 123.761C7.04225 187.935 59.0655 239.958 123.239 239.958C187.413 239.958 239.437 187.935 239.437 123.761C239.437 59.5867 187.413 7.56349 123.239 7.56349ZM0 123.761C0 55.6974 55.1762 0.52124 123.239 0.52124C191.303 0.52124 246.479 55.6974 246.479 123.761C246.479 191.824 191.303 247 123.239 247C55.1762 247 0 191.824 0 123.761Z"
+                    fill="#3EB8E5">
+                  </path>
+                </svg>
+                <div class="progress-dot"></div>
+              </div>
+              <div class="progress-circle-container">
+                <div class="progress-circle">
+                  <div class="progress-circle-inner">
+                    <span id="progress-percentage"><span id="progressPercentage">0</span><span
+                        class="percent-sign">%</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results-screen" class="screen">
+      <div class="results-card">
+        <h2>Achieve Your Dream Figure with Quick and Effective Workouts.</h2>
+
+        <h3 class="results-heading">Great News</h3>
+
+        <div class="results-content">
+          <p>Your ideal fat burning routine has been calculated!</p>
+
+          <p>Based on your answers, we’ve identified one simple method that you can start doing TODAY to help maximize
+            results, in mini-mal time</p>
+
+          <p>Don’t worry... it doesn’t require long hours in the gym, running miles on a treadmill, or some super
+            intense cardio workout.</p>
+
+          <p>Instead, this little-known “S.I.T. routine” can be done from the convenience of home, using your body’s own
+            resistance, in just 7-minutes a day.</p>
+
+          <p>But here’s the kicker: The special, hyper-focused movements have the potential to burn fat hours later,
+            even while you sleep!</p>
+
+          <p>In the free presentation below, world renowned nutrition, fitness and weight loss expert, Meredith Shirk,
+            explains it all.</p>
+
+          <p>Discover the virtually foolproof way to finally melt off stubborn fat, regardless of your age or activity
+            level, revealing a thinner, leaner, more toned body that you’ll absolutely LOVE!</p>
+
+          <p>(This major metabolic breakthrough has already helped thousands of women get the body of thei dreams... and
+            you could be next.)</p>
+        </div>
+
+        <button id="watch-btn" class="cta-button">Watch Presentation Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="copyright">© 2024 Cool Company, All Rights Reserved</div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/refayet-siddique/" class="footer-link">Privacy Policy</a>
+          <a href="https://www.linkedin.com/in/refayet-siddique/" class="footer-link">Terms of Services</a>
+          <a href="https://www.linkedin.com/in/refayet-siddique/" class="footer-link">Contact Us</a>
+        </div>
+      </div>
+      <div class="disclaimer">
+        Content, images, and assets on this site may not be reproduced, transmitted, cached, distributed, or used in any
+        way without prior written consent. This site does not offer professional medical advice or services. The ideas,
+        procedures, and suggestions provided here are not a substitute for consulting your physician and should be used
+        only as part of planning your overall health and fitness plan with medical supervision. Our Terms of Service
+        limit liability, and you must read and agree to them before using this site. This information is not intended to
+        diagnose, treat, cure, or prevent any disease. Your results may differ from any claims or testimonials. Typical
+        results are not guaranteed; most people do not achieve results because they do not take consistent action. The
+        examples shown are of individuals who made lifestyle changes and are not typical. Achieving results requires
+        commitment and adherence to a plan
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
